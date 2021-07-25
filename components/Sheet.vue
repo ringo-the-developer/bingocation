@@ -95,6 +95,16 @@ td
   &.free
     font-size: 14px
   &.checked
-    corsor: default
-    background: red
+    cursor: default
+    background: #ffcece
+    position: relative
+    &::after
+      content: ""
+      position: absolute
+      top: 4px
+      left: 6px
+      width: 40px
+      height: 40px
+      background: url("~assets/checked.svg") no-repeat top left / cover
+      opacity: .9
 </style>
