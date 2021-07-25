@@ -71,8 +71,8 @@ export default {
       bingo: false,
     }
   },
-  computed(){
-  },
+  // computed(){
+  // },
   methods: {
     checkBingo(){
       if(this.state.a1IsActive && this.state.a2IsActive && this.state.a3IsActive && this.state.a4IsActive && this.state.a5IsActive 
