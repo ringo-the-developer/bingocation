@@ -1,7 +1,7 @@
 <template lang="pug">
   .bingo
-    SheetTest
-    hr
+    //- SheetTest
+    //- hr
     Sheet
     hr
     Screen
